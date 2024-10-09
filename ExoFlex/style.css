@@ -1,0 +1,148 @@
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+     }
+    
+    body, html {
+      height: 100%;
+     }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      background-color: red;
+     }
+
+    header { 
+      font-size: large;
+      text-align: center;
+      padding: 30px;
+     }
+
+    nav {
+      display: flex;
+      padding: 0px;
+      
+     }
+
+    h1{
+      font-size: 20px;
+      margin-bottom: 0px;
+      text-align: center;
+     }
+
+    nav a {
+      margin: 5px ;
+      display: flex;
+      text-decoration: none;
+      color: black;
+      border: 1px solid black;
+      padding: 5px 10px;
+      width: 500px;
+      justify-content: center; 
+     }
+
+
+     
+    .main-content {
+      display: flex;
+      flex: 1;
+     }
+
+    .asade1 {
+      background: yellow;
+      width: 20%;
+      padding: 20px;
+      font-size: 24px; 
+    font-weight: bold; 
+      }
+    .asade2 {
+        background: lightcoral;
+        width: 20%;
+        padding: 20px;
+        font-size: 24px; 
+        font-weight: bold; 
+         
+      }
+
+    .content {
+        display: flex;
+        padding: 20px;
+        background: lightblue; 
+      }
+
+      .content p {
+        flex: 1;
+        padding: 10px;
+        text-align: justify;
+        margin: 0; 
+     }
+    .content1{
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+       
+     }
+
+    .content2{
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+     
+    
+     }
+    .content3{
+        width: 300px;
+        margin: 10px;
+        padding: 10px;
+
+     }
+     /*-------------------  css de l'exo2flex ---------------*/
+     .asadee1 {
+      background: yellow;
+      width: 20%;
+      padding: 20px;
+      flex: 0 0 15%;
+      font-size: 24px; 
+      font-weight: bold; 
+      }
+    .asadee2 {
+        background: lightcoral;
+        width: 20%;
+        padding: 20px;
+        flex: 0 0 15%;
+        font-size: 24px; 
+        font-weight: bold; 
+      }
+  
+     .contente {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      padding: 10px;
+      background-color: lightblue;
+  }
+  
+  .contente1, .contente2 {
+      flex: 1 1 40%; /* Chaque paragraphe occupe environ la moitié de l'espace */
+      margin: 10px;
+      padding: 10px;
+      text-align: justify;
+  }
+  
+  .contente3 {
+      flex: 1 1 80%; /* Le dernier paragraphe occupe toute la largeur */
+      margin: 10px;
+      padding: 10px;
+      text-align: justify;
+  }
+  
+
+    footer {
+      background:lightgreen;
+      padding: 20px;
+      text-align: center;
+     }

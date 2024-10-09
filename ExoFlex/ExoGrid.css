@@ -1,0 +1,80 @@
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: #f4f4f4;
+}
+.grid-container {
+   display: grid;
+   grid-template-columns: repeat(6, 1fr); /* 9 colonnes */
+   grid-template-rows: repeat(6, 1fr);    /* 6 lignes */
+   gap: 0;
+   width: 800px;
+   height: 500px;
+   border: 2px solid black;
+   background-color: black;
+}
+
+ 
+  .white {
+   background-color: gray;
+  }
+  .yellow {
+   background-color: yellow;
+  }
+  .blue {
+   background-color: blue;
+  }
+  .red {
+   background-color: red;
+  }
+  .black {
+   background-color: black;
+  }
+  
+ 
+ 
+ .w1 { grid-area: 1 / 1 / 3 / 3; } /* zone blanche 1 */
+ .w2 { grid-area: 1 / 3 / 3 / 4; } /* zone blanche 2 */
+ .b1 { grid-area: 1 / 4 / 2 / 5; } /* zone bleue 1 */
+ .y1 { grid-area: 1 / 5 / 3 / 6; } /* zone jaune 1 */
+ .w3 { grid-area: 1 / 6 / 3 / 7; } /* zone blanche 3 */
+ .r1 { grid-area: 1 / 6 / 2 / 7; } /* zone rouge 1 */
+ .b2 { grid-area: 2 / 1 / 3 / 2; } /* zone noire 1 */
+ .r2 { grid-area: 2 / 2 / 3 / 3; } /* zone rouge 2 */
+ .y2 { grid-area: 2 / 3 / 3 / 4; } /* zone jaune 2 */
+ .w4 { grid-area: 2 / 4 / 3 / 5; } /* zone blanche 4 */
+ .r3 { grid-area: 2 / 5 / 3 / 6; } /* zone rouge 3 */
+ .w5 { grid-area: 2 / 6 / 3 / 7; } /* zone blanche 5 */
+ .w6 { grid-area: 3 / 1 / 4 / 2; } /* zone blanche 6 */
+ .b3 { grid-area: 3 / 2 / 4 / 3; } /* zone noire 2 */
+ .b2 { grid-area: 3 / 3 / 4 / 4; } /* zone bleue 2 */
+ .y3 { grid-area: 3 / 4 / 4 / 5; } /* zone jaune 3 */
+ .w7 { grid-area: 3 / 5 / 4 / 6; } /* zone blanche 7 */
+ .r4 { grid-area: 3 / 6 / 4 / 7; } /* zone rouge 4 */
+ .b4 { grid-area: 4 / 1 / 5 / 2; } /* zone noire 3 */
+ .w8 { grid-area: 4 / 2 / 4 / 3; } /* zone blanche 8 */
+ .r5 { grid-area: 4 / 3 / 5 / 4; } /* zone rouge 5 */
+ .y4 { grid-area: 4 / 4 / 5 / 5; } /* zone jaune 4 */
+ .b5 { grid-area: 4 / 5 / 5 / 6; } /* zone noire 4 */
+ .w9 { grid-area: 4 / 6 / 5 / 7; } /* zone blanche 9 */
+ .w10 { grid-area: 5 / 1 / 6 / 2; } /* zone blanche 10 */
+ .b6 { grid-area: 5 / 2 / 6 / 3; } /* zone noire 5 */
+ .b3 { grid-area: 5 / 3 / 6 / 4; } /* zone bleue 3 */
+ .y5 { grid-area: 5 / 4 / 6 / 5; } /* zone jaune 5 */
+ .w11 { grid-area: 5 / 5 / 6 / 6; } /* zone blanche 11 */
+ .r6 { grid-area: 5 / 6 / 6 / 7; } /* zone rouge 6 */
+ .w12 { grid-area: 6 / 1 / 7 / 2; } /* zone blanche 12 */
+ .b7 { grid-area: 6 / 2 / 7 / 3; } /* zone noire 6 */
+ .b4 { grid-area: 6 / 3 / 7 / 4; } /* zone bleue 4 */
+ .w13 { grid-area: 6 / 4 / 7 / 5; } /* zone blanche 13 */
+ .y4 { grid-area: 4 / 5 / 4 / 7; } /* zone jaune 6 */
+ .r7 { grid-area: 6 / 6 / 7 / 7; } /* zone rouge 7 */
+  
